@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(135deg, orange, orange 60%, cyan);
+}
+.A { 
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.a{
+    background-color: rgb(219, 0, 0);
+    height: 300px;
+    width: 150px;
+    transition: all 0.5s;
+
+
+}
+.a:hover {
+    height: 500px;
+    width: 300px;
+}
+p {
+    text-align: center;
+    font-size: 18px;
+    color: orange;
+}
+img{
+    width: 60px;
+    height: 60px;
+}
